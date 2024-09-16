@@ -1,32 +1,29 @@
 {
   "expo": {
-    "name": "AwesomeProject",
-    "slug": "AwesomeProject",
-    "version": "1.0.0",
+    "name": "FinK",
+    "slug": "Digital-Khata-Slug",
+    "version": "1.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "icon": "./assets/ic_support_icon_foreground.png",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.digitalkhata.digitalkhata",
+      "buildNumber": "1.0.0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+      "package": "com.digitalkhata.digitalkhata",
+      "versionCode": 11,
+      "icon": "./assets/ic_support_icon_foreground.png",
+      "adaptiveIcon": { 
+        "foregroundImage": "./assets/ic_support_icon_foreground.png",
+        "backgroundColor": "#009387"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
+   
   }
 }
